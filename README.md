@@ -44,3 +44,13 @@ GET/task : View Tasks
 POST /tasks: Create a new task.
 PUT /tasks/{id}: Update an existing task.
 DELETE /tasks/{id}: Delete a task.
+
+
+
+**FUTURE IMPLMENTATION**
+- Swagger
+- Testing with MOCK API
+- Metric
+- Queue
+- ADMIN View
+- Exception Handle
