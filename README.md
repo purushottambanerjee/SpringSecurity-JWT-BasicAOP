@@ -21,6 +21,7 @@ Springfox Swagger (for API documentation)
 Fields: id, username, password, role (User or Admin)
 Use Spring Security for hashing passwords.
 One-to-many relationship with Task.
+
 **Task Entity:**
 Fields: id, title, description, status, created_at, updated_at
 Many tasks belong to one user (One-to-Many relation).
@@ -31,6 +32,7 @@ Use JPA annotations to map relationships.
 Create a UserDetailsService for loading user data from the database.
 Implement JWT generation and validation.
 Set up the SecurityConfig to protect endpoints and use JWT for stateless authentication.
+
 Example:
 /login: User login (returns JWT token).
 /tasks: Secure endpoint to create, read, update, or delete tasks (accessible only after authentication).
