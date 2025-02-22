@@ -7,7 +7,7 @@ User Roles (Admin/User Role-based access)
 Advanced JPA (One-to-Many Relationship)
 
 
-Dependency
+**Dependency**
 Spring Web
 Spring Data JPA
 Spring Security
@@ -21,7 +21,7 @@ Springfox Swagger (for API documentation)
 Fields: id, username, password, role (User or Admin)
 Use Spring Security for hashing passwords.
 One-to-many relationship with Task.
-Task Entity:
+**Task Entity:**
 Fields: id, title, description, status, created_at, updated_at
 Many tasks belong to one user (One-to-Many relation).
 Use JPA annotations to map relationships.
